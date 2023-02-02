@@ -14,7 +14,7 @@ Through the method presented in this paper, it is expected that automation metho
 
 In this paper, interactions are defined as follows. In the case of interaction, it is defined as the form of an edge connecting speeches from several countries that mentioned an issue. In the case of the edge, speeches with high similarities between documents were connected. The reason for this definition is that it is assumed that documents with high similarity in content deal with the same issue. Here, the edge refers to a line connecting two or more nodes in network analysis. However, it should be noted that this methodology needs to unify the language because it mainly aims to bind speeches from countries with various languages. Therefore, a procedure for unifying the language in the preprocessing process is necessary.
 
-<img src="./figures/interaction.jpg" width=30% height=30%>
+<img src="./figures/interaction.jpg">
 
 ## Stance
 
@@ -22,4 +22,4 @@ On a particular political issue, stance regarded it as the sensitivity of the po
 
 In the case of the stance score, it was calculated by combining the sentimental dictionary mentioned above and the sentiment dictionary composed of experts' annotations. For words listed in the sentiment dictionary, the word was replaced by the sentiment score of the word, and the rest was replaced by zero. The scores were then averaged and then stanced based on the following criteria.
 
-<img src="./figures/stance.jpg" width=30% height=30%>
+<img src="./figures/stance.jpg">
