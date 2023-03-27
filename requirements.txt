@@ -1,0 +1,12 @@
+langid
+koalanlp
+sentence_splitter
+pandas
+gensim
+scikit-learn
+seaborn
+numpy
+nltk
+fugashi
+konlpy
+tweepy==3.10
